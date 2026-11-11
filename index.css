@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}body{
+    background-color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(51, 51, 51);
+    line-height: 1.6;
+}
+.header-section{
+    background-color: navy;
+    color: rgb(255 255 255 );
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 20px;
+}
+.hero-section{
+   
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 10px;
+ 
+}
+.product-section h2{
+    color: #ffffff;
+}
+
+.welcome {
+    background-color: #000080;
+    background-image:
+        linear-gradient(rgba(0, 0, 128, 0.65), rgba(0, 0, 128, 0.65)), 
+        url("perfume.jpg");
+
+    background-size: contain;
+    background-position: center;
+    background-repeat: inherit;
+
+    color: #FFFFFF;
+    padding: 40px 30px;
+    text-align: center;
+    
+}
+.welcome h2 {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.welcome p {
+    text-align: justify;
+}
+
+.offers{
+    background-color: #F5F5F5;
+    padding: 15px;
+    margin-top: 25px;
+}
+.offers h2 {
+    color: navy;
+    border-bottom: 3px solid gold;
+    padding-bottom: 10px;
+}
+.offers li {
+    padding-bottom: 10px;
+}
+
+
+.footer-section{
+    background-color: navy;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
